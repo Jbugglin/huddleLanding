@@ -20,7 +20,7 @@ body{
 
 main {
     width: 100dvw;
-    height: 100dvh;
+    height: fit-content;
 }
 
 .imageContainer {
@@ -34,20 +34,20 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem auto 0rem;
+    margin: 0rem auto 0rem;
 }
 
 #illustrationMockups {
     display: block;
     width: 100%;
     height: 100%;
-    margin: 2.75rem auto;
+    margin: 0rem auto;
 }
 
 #huddleLogo {
     display: block;
     width: 35%;
-    margin: 1rem 1.75rem 2rem;
+    margin: 0rem 1.75rem;
 }
 
 .infoContainer {
@@ -63,7 +63,7 @@ main {
 .infoContainer h1 {
     width: 75%;
     font-size: 1.625rem;
-    margin: 1rem auto;
+    margin: 0rem auto;
 }
 
 .infoContainer p {
@@ -75,7 +75,7 @@ main {
 
 button {
     border-radius: 1.5rem;
-    margin: 1rem;
+    margin: 0rem;
     padding: 0.875rem;
     width: 55%;
     border: none;
@@ -85,7 +85,7 @@ button {
 
 .socialMediaIcons {
     display: flex;
-    margin: 1rem auto 2rem;
+    margin: 0rem auto 0rem;
 }
 
 .socialMediaIcons li {
