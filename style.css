@@ -15,8 +15,8 @@
 body{
     background-image: url(./images/bg-mobile.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0% 0%;
+    background-size: auto;
+    background-position: 0% -2%;
     width: 100dvw;
     height: 100dvh;
     background-color: var(--violet);
@@ -29,8 +29,8 @@ main {
 
 #huddleLogo {
     display: block;
-    width: 30%;
-    margin: 1.5rem 2.25rem 2.5rem;
+    width: 34%;
+    margin: 1.5rem 2.25rem 3rem;
 }
 
 .imageContainer {
@@ -44,7 +44,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem auto;
+    margin: 1.25rem auto;
 }
 
 #illustrationMockups {
@@ -66,15 +66,15 @@ main {
 
 .infoContainer h1 {
     width: 75%;
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     line-height: 1.25;
-    margin: 1.5rem auto 0.5rem;
-    font-weight: 600;
+    margin: 2rem auto 0.25rem;
+    font-weight: 700;
 }
 
 .infoContainer p {
     font-size: 0.875rem;
-    line-height: 1.5;
+    line-height: 1.56;
     width: 75%;
     letter-spacing: 0.5px;
     text-align: center;
