@@ -15,7 +15,7 @@
 body{
     background-image: url(./images/bg-mobile.svg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     background-position: 0% 0%;
     width: 100dvw;
     height: 100dvh;
@@ -30,7 +30,7 @@ main {
 #huddleLogo {
     display: block;
     width: 35%;
-    margin: 2rem 2.25rem 3.5rem;
+    margin: 2rem 2.25rem 2.5rem;
 }
 
 .imageContainer {
