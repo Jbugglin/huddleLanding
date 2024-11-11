@@ -30,7 +30,7 @@ main {
 #huddleLogo {
     display: block;
     width: 34%;
-    margin: 1.5rem 2.25rem 3rem;
+    margin: 1.5rem 2.25rem 3.5rem;
 }
 
 .imageContainer {
@@ -44,7 +44,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1.25rem auto;
+    margin: 1.5rem auto;
 }
 
 #illustrationMockups {
@@ -68,7 +68,7 @@ main {
     width: 75%;
     font-size: 1.375rem;
     line-height: 1.25;
-    margin: 2rem auto 0.25rem;
+    margin: 2.5rem auto 0.25rem;
     font-weight: 700;
 }
 
@@ -84,7 +84,7 @@ main {
 
 button {
     border-radius: 1.5rem;
-    margin: 0rem auto;
+    margin: 0rem auto 1rem;
     padding: 0.875rem;
     width: 55%;
     border: none;
