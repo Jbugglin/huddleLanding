@@ -30,7 +30,7 @@ main {
 #huddleLogo {
     display: block;
     width: 34%;
-    margin: 1.5rem 2.25rem 3.5rem;
+    margin: 1.625rem 2.25rem 3.5rem;
 }
 
 .imageContainer {
@@ -96,6 +96,12 @@ button {
     font-weight: 450;
 }
 
+button:hover {
+    background-color: var(--softMagenta);
+    color: white;
+    cursor: pointer;
+}
+
 .socialMediaIcons {
     display: flex;
     margin: 2rem auto;
@@ -114,6 +120,60 @@ button {
     font-size: 0.8rem;
 }
 
+.socialMediaIcons li:hover{
+    color: var(--softMagenta);
+    cursor: pointer;
+    border: 1px solid var(--softMagenta);
+    border-radius: 1rem;
+}
+
 footer {
     display: none;
+}
+
+/* Media Queries - Desktop view */
+@media screen and (min-width: 500px) {
+    body{
+        background-image: url(./images/bg-desktop.svg);
+        background-size: contain;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    #huddleLogo {
+        display: block;
+        width: 27%;
+        margin: 4rem 4.5rem 5rem;
+    }
+
+    #illustrationMockups {
+        display: block;
+        width: 120%;
+        height: 130%;
+        margin: 0rem 0rem 0rem 10rem;
+    }
+
+    .infoContainer{
+        width: 50dvw;
+        height: 100dvh;
+    }
+    .imageContainer{
+        width: 50dvw;
+        height: 100dvh;
+    }
+
+    .infoContainer h1 {
+        font-weight: 700;
+        border: 2px solid white;
+        margin: 0rem;
+        font-size: 2rem;
+    }
+    
+    .infoContainer p {
+        font-weight: 350;
+        border: 2px solid yellow;
+        margin: 0rem;
+        font-size: 1rem;
+    }
 }
