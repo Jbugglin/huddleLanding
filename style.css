@@ -137,10 +137,14 @@ footer {
         background-image: url(./images/bg-desktop.svg);
         background-size: contain;
     }
+
     main{
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
+
     #huddleLogo {
         display: block;
         width: 27%;
@@ -153,27 +157,50 @@ footer {
         height: 130%;
         margin: 0rem 0rem 0rem 10rem;
     }
-
-    .infoContainer{
-        width: 50dvw;
-        height: 100dvh;
-    }
+    
     .imageContainer{
         width: 50dvw;
         height: 100dvh;
     }
 
+    .infoContainer{
+        width: 50dvw;
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .infoContainer h1 {
         font-weight: 700;
-        border: 2px solid white;
-        margin: 0rem;
-        font-size: 2rem;
+        margin: 0rem 0rem 1rem 1rem;
+        font-size: 2.5rem;
+        width: 500px;
+        text-align: left;
+        font-weight: 650;
     }
     
     .infoContainer p {
         font-weight: 350;
-        border: 2px solid yellow;
-        margin: 0rem;
+        margin: 1rem 0rem 0rem 0rem;
         font-size: 1rem;
+        text-align: left;
+        width: 480px;
+    }
+
+    button {
+        width: 175px;
+        font-size: 1.125rem;
+        position: absolute;
+        bottom: 28%;
+        left: 50%;
+        margin: 0rem 0rem 0rem 7rem;
+    }
+
+    .socialMediaIcons {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0rem 6rem 2rem 0rem;
     }
 }
